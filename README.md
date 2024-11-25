@@ -41,15 +41,9 @@
 2. Go to **Appearance** > **Configure custom CSS...**.
 3. Paste the copied flavor file.
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
-
-- Q: **_"How can I do X?"_**\
-  A: ...
-
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [ImenaOphelia](https://github.com/ImenaOphelia)
 
 &nbsp;
 
