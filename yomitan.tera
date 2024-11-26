@@ -1,0 +1,46 @@
+---
+whiskers:
+  version: "2.0.0"
+  matrix:
+    - flavor
+    - accent
+  filename: 'themes/{{flavor.identifier}}/{{accent}}.css'
+---
+/*
+Catppuccin 
+Soothing pastel theme for Yomitan
+{{ flavor.name }}, {{ flavor.colors[accent].name }}
+Made by ImenaOphelia with Whiskers
+*/
+body {
+    font-family: Inter, system-ui, sans-serif;
+}
+:root{{ if(cond=flavor.dark, t="[data-theme=dark]", f="") }} {
+    --background-color: #{{ base.hex }};
+    --gloss-image-background-color: #{{ surface0.hex }};
+    --accent-color: #{{ flavor.colors[accent].hex }};
+    --link-color: #{{ blue.hex }};
+
+    --text-color: #{{ text.hex }};
+
+    --light-border-color: #{{ surface0.hex }};
+
+    {{ if(cond=flavor.dark, t="--tag-text-color: #" ~ base.hex ~ ";", f="") }}
+    --tag-border-color: transparent;
+    --tag-default-background-color: #{{ surface0.hex }};
+    --tag-name-background-color: #{{ maroon.hex }};
+    --tag-expression-background-color: #{{ peach.hex }};
+    --tag-popular-background-color: #{{ blue.hex }};
+    --tag-frequent-background-color: #{{ teal.hex }};
+    --tag-archaism-background-color: #{{ red.hex }};
+    --tag-dictionary-background-color: #{{ lavender.hex }};
+    --tag-frequency-background-color: #{{ green.hex }};
+    --tag-part-of-speech-background-color: #{{ surface1.hex }};
+    --tag-search-background-color: #{{ surface0.hex }};
+    --tag-pronunciation-dictionary-background-color: #{{ mauve.hex }};
+}
+
+{{ if(cond=flavor.dark, t=".tag[data-category='partOfSpeech'] .tag-label-content, .tag[data-category='default'] .tag-label-content, .tag[data-category='search'] .tag-label-content {
+    color: #" ~ text.hex ~ " !important;
+}", f="") }}
+

@@ -1,0 +1,38 @@
+/*
+Catppuccin 
+Soothing pastel theme for Yomitan
+Mocha, Sapphire
+Made by ImenaOphelia with Whiskers
+*/
+body {
+    font-family: Inter, system-ui, sans-serif;
+}
+:root[data-theme=dark] {
+    --background-color: #1e1e2e;
+    --gloss-image-background-color: #313244;
+    --accent-color: #74c7ec;
+    --link-color: #89b4fa;
+
+    --text-color: #cdd6f4;
+
+    --light-border-color: #313244;
+
+    --tag-text-color: #1e1e2e;
+    --tag-border-color: transparent;
+    --tag-default-background-color: #313244;
+    --tag-name-background-color: #eba0ac;
+    --tag-expression-background-color: #fab387;
+    --tag-popular-background-color: #89b4fa;
+    --tag-frequent-background-color: #94e2d5;
+    --tag-archaism-background-color: #f38ba8;
+    --tag-dictionary-background-color: #b4befe;
+    --tag-frequency-background-color: #a6e3a1;
+    --tag-part-of-speech-background-color: #45475a;
+    --tag-search-background-color: #313244;
+    --tag-pronunciation-dictionary-background-color: #cba6f7;
+}
+
+.tag[data-category='partOfSpeech'] .tag-label-content, .tag[data-category='default'] .tag-label-content, .tag[data-category='search'] .tag-label-content {
+    color: #cdd6f4 !important;
+}
+

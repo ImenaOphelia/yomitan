@@ -1,0 +1,36 @@
+/*
+Catppuccin 
+Soothing pastel theme for Yomitan
+Latte, Rosewater
+Made by ImenaOphelia with Whiskers
+*/
+body {
+    font-family: Inter, system-ui, sans-serif;
+}
+:root {
+    --background-color: #eff1f5;
+    --gloss-image-background-color: #ccd0da;
+    --accent-color: #dc8a78;
+    --link-color: #1e66f5;
+
+    --text-color: #4c4f69;
+
+    --light-border-color: #ccd0da;
+
+    
+    --tag-border-color: transparent;
+    --tag-default-background-color: #ccd0da;
+    --tag-name-background-color: #e64553;
+    --tag-expression-background-color: #fe640b;
+    --tag-popular-background-color: #1e66f5;
+    --tag-frequent-background-color: #179299;
+    --tag-archaism-background-color: #d20f39;
+    --tag-dictionary-background-color: #7287fd;
+    --tag-frequency-background-color: #40a02b;
+    --tag-part-of-speech-background-color: #bcc0cc;
+    --tag-search-background-color: #ccd0da;
+    --tag-pronunciation-dictionary-background-color: #8839ef;
+}
+
+
+

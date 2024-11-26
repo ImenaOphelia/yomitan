@@ -1,0 +1,38 @@
+/*
+Catppuccin 
+Soothing pastel theme for Yomitan
+Frappé, Flamingo
+Made by ImenaOphelia with Whiskers
+*/
+body {
+    font-family: Inter, system-ui, sans-serif;
+}
+:root[data-theme=dark] {
+    --background-color: #303446;
+    --gloss-image-background-color: #414559;
+    --accent-color: #eebebe;
+    --link-color: #8caaee;
+
+    --text-color: #c6d0f5;
+
+    --light-border-color: #414559;
+
+    --tag-text-color: #303446;
+    --tag-border-color: transparent;
+    --tag-default-background-color: #414559;
+    --tag-name-background-color: #ea999c;
+    --tag-expression-background-color: #ef9f76;
+    --tag-popular-background-color: #8caaee;
+    --tag-frequent-background-color: #81c8be;
+    --tag-archaism-background-color: #e78284;
+    --tag-dictionary-background-color: #babbf1;
+    --tag-frequency-background-color: #a6d189;
+    --tag-part-of-speech-background-color: #51576d;
+    --tag-search-background-color: #414559;
+    --tag-pronunciation-dictionary-background-color: #ca9ee6;
+}
+
+.tag[data-category='partOfSpeech'] .tag-label-content, .tag[data-category='default'] .tag-label-content, .tag[data-category='search'] .tag-label-content {
+    color: #c6d0f5 !important;
+}
+
