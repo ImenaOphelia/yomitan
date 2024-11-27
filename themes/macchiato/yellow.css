@@ -32,7 +32,9 @@ body {
     --tag-pronunciation-dictionary-background-color: #c6a0f6;
 }
 
+
 .tag[data-category='partOfSpeech'] .tag-label-content, .tag[data-category='default'] .tag-label-content, .tag[data-category='search'] .tag-label-content {
-    color: #cad3f5 !important;
+  color: #cad3f5 !important;
 }
+
 
