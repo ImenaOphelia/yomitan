@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Copy of the flavor of your choice.
+1. Copy the contents of the flavor and accent combination of your choice from [`themes/`](./themes/).
 2. Open Yomitan settings and toggle **Advanced** at the bottom left corner.
 2. Go to **Appearance** > **Configure custom CSS...**.
 3. Paste the copied flavor file.
