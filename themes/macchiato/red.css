@@ -11,11 +11,18 @@ body {
     --background-color: #24273a;
     --gloss-image-background-color: #363a4f;
     --accent-color: #ed8796;
+    --accent-color-lighter: var(--accent-color);
+    --button-default-icon-color: var(--accent-color);
     --link-color: #8aadf4;
 
     --text-color: #cad3f5;
 
     --light-border-color: #363a4f;
+
+    --input-background-color: #363a4f;
+
+    --toggle-track-color: #8087a2;
+    --toggle-knob-color: #939ab7;
 
     --tag-text-color: #24273a;
     --tag-border-color: transparent;
