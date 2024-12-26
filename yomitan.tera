@@ -19,11 +19,18 @@ body {
     --background-color: #{{ base.hex }};
     --gloss-image-background-color: #{{ surface0.hex }};
     --accent-color: #{{ flavor.colors[accent].hex }};
+    --accent-color-lighter: var(--accent-color);
+    --button-default-icon-color: var(--accent-color);
     --link-color: #{{ blue.hex }};
 
     --text-color: #{{ text.hex }};
 
     --light-border-color: #{{ surface0.hex }};
+
+    --input-background-color: #{{ surface0.hex }};
+
+    --toggle-track-color: #{{ overlay1.hex }};
+    --toggle-knob-color: #{{ overlay2.hex }};
 
     {% if flavor.dark %}--tag-text-color: #{{ base.hex }};{% endif %}
     --tag-border-color: transparent;
